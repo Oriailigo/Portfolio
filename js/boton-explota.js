@@ -1,7 +1,3 @@
-function saludo() {
-    alert("Han pasado 3 segundos");
-}
-
 function pop(e) {
     let amount = 30;
     switch (e.target.dataset.type) {
@@ -63,6 +59,7 @@ function createParticle(x, y, type) {
         delay: delay
     });
     animation.onfinish = removeParticle;
+    // redireccionar
 }
 
 function removeParticle(e) {
