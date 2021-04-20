@@ -30,6 +30,7 @@ function pop(e) {
 function createParticle(x, y, type) {
     const particle = document.createElement('particle');
     document.body.appendChild(particle);
+
     let width = Math.floor(Math.random() * 30 + 8);
     let height = width;
     let destinationX = (Math.random() - 0.5) * 300;
@@ -63,6 +64,9 @@ function createParticle(x, y, type) {
         delay: delay
     });
     animation.onfinish = removeParticle;
+    //redireccionar
+
+    
 }
 
 function removeParticle(e) {
