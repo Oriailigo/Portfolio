@@ -26,6 +26,7 @@ function pop(e) {
 function createParticle(x, y, type) {
     const particle = document.createElement('particle');
     document.body.appendChild(particle);
+
     let width = Math.floor(Math.random() * 30 + 8);
     let height = width;
     let destinationX = (Math.random() - 0.5) * 300;
@@ -59,13 +60,25 @@ function createParticle(x, y, type) {
         delay: delay
     });
     animation.onfinish = removeParticle;
+
     // redireccionar
+    //redireccioname;
+
 }
+
 
 function removeParticle(e) {
     e.srcElement.effect.target.remove();
 }
 
+// esto hace la animacion de los corazones
 if (document.body.animate) {
     document.querySelectorAll('button').forEach(button => button.addEventListener('click', pop));
+
+}
+
+
+function redireccioname(e) {
+    document.getElementById('acercademi')
+    setTimeout("location.href = '#about';", 5000);
 }
