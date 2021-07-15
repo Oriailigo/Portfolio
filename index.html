@@ -38,22 +38,25 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                <a class="js-scroll-trigger" href="#page-top">Estas en el menu</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#page-top">Home</a>
+                <a class="js-scroll-trigger" href="#page-top">Inicio</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">About</a>
+                <a class="js-scroll-trigger" href="#about">Acerca de mi</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#services">Services</a>
+                <a class="js-scroll-trigger" href="#misCapacidades">Mis capacidades</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#services">Skills</a>
             </li>
             <li class="sidebar-nav-item">
                 <a class="js-scroll-trigger" href="#proyecto">Proyectos</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#contact">Contact</a>
+                <a class="js-scroll-trigger" href="#contact">Contacto</a>
             </li>
         </ul>
     </nav>
@@ -66,14 +69,15 @@
                     <h1 class="home__title" style="color: aliceblue; text-shadow: 0 20px 25px rgba(0, 0, 0, 0.8);"><span style="color: aliceblue;">HO</span> <br> LA. </h1>
                 </div>
                 <div class="col-sm text-center">
-                    <img src="/img/perfil.png" style="width: 200px; height: 200px;">
+                    <img src="/img/f6n.jpg" style="width: 200px; height: 200px; border-radius:150px;">
 
                     <h3 class="mb-5" style="font-size: 4rem;">
                         <a href="" class="typewrite" style=" text-decoration: none; color: #131313;" data-period="2000" data-type='[ "Frontend", "Developer" ]'>
                             <span class="wrap"></span>
                         </a>
                     </h3>
-                    <h2 class="mb-1 typewrite" style="font-size: 2rem;">Soy Oriana Carolina Ailigo</h2>
+                    <h2 class="mb-1 typewrite" style="font-size: 3rem;">Soy Oriana Carolina Ailigo </h2>
+                    <h3 class="mb-1 typewrite" style="font-size: 2rem;">Ingeniera en computación</h3>
                     <!-- <h3 class="mb-5" style="font-size: 4rem;">
                         <em>Frontend Developer</em>
                     </h3> -->
@@ -88,11 +92,14 @@
 
             <!-- <div class="text-center wrapper">
                 <a class="btn btn-primary btn-xl js-scroll-trigger" data-type="emoji" href="#about">Acerca de mi</a>
-            </div> -->
-            <div class="text-center wrapper"></div>
+            </div> 
+        
+         js-scroll-trigger"
+        -->
+            <div class="text-center wrapper" data-type="emoji"></div>
             <form>
 
-                <button id="acercademi" data-type="emoji" class="btn btn-primary btn-xl js-scroll-trigger" type="submit">Acerca de mi</button>
+                <a href="#about" class="btn btn-primary btn-xl" type="submit">Acerca de mi</a>
 
 
             </form>
@@ -104,193 +111,601 @@
     </header>
 
     <!-- About -->
-    <section class="content-section bg-light" id="about">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                        <a href="https://unsplash.com/">Unsplash</a>!</p>
-                    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+    <section class="content-section-heading" id="about" style="margin: 2rem auto 2rem auto;  ">
+
+        <div class="container text-center" style="
+            -webkit-box-shadow: 0px 7px 18px 4px rgb(0 0 0 / 38%);
+            -moz-box-shadow: 0px 7px 18px 4px rgba(0, 0, 0, 0.38);
+            box-shadow: 0px 7px 18px 4px rgb(0 0 0 / 38%);
+        ">
+            <h2 class="mb-2 " style=" padding-top: 2rem; ">Acerca de mi</h2>
+            <div class="row ">
+
+                <div style="text-align: justify; margin: 20px 30px 20px 30px; ">
+
+
+                    <p class="lead mb-3 " style="font-size: 1.6rem;"> ¡Hola! mi nombre es Oriana Ailigo, soy Ingeniera en computación. Mis amigos me apodan “Ori”, tengo 25 años, vivo en La Plata, Argentina, aunque mi lugar de origen es en Viedma, Rio Negro. </p>
+                    <p class="lead mb-3 " style="font-size: 1.6rem; ">Mi propósito es realizar una web de acceso rápido, fácil de usar, atractivo, accesible para cualquier usuario lo cual no implica frustraciones. Durante el proceso utilizo las mejores prácticas de UI/UX, siendo el mismo lo que más me
+                        llama la atención, ya que a través del diseño busco nuevas formas para mejorar las relaciones entre las personas y el mundo que los rodea. Tengo curiosidad acerca de los problemas cotidianos y las vivencias de las personas, este
+                        es el motivo por el cual creo que escuchando, se puede aprender muchísimo antes de comenzar a solucionar los problemas de manera efectiva.</p>
+                    <h3 class="mb-1 " style="font-size: 1.6rem; ">Pasatiempos:</h3>
+
+                    <p class="lead mb-3 " style="font-size: 1.6rem; ">
+                        Me gusta ver películas de comedia y acción. Además me gusta caminar, viajar, tomar mates con amigos, escuchar música en inglés, aprender inglés, y aprender sobre tecnologías de manera autodidacta.</p>
+                    <h3 class="mb-1 " style="font-size: 1.6rem; ">Deportes:</h3>
+                    <p class="lead mb-3 " style="font-size: 1.6rem; "> Mi deporte favorito es el handball y juego desde los 9 años. Mi posición siempre fue la punta izquierda. Otros deportes que me gustan son el tenis, voley y basket.</p>
+                    <h3 class="mb-1 " style="font-size: 1.6rem; ">Objetivo: </h3>
+                    <p class="lead mb-3 " style="font-size: 1.6rem; ">Enseñarle y mostrarle a mi familia y amigos que la tecnología es parte de nuestra vida cotidiana y su avance es extraordinario ya que está arrasando en la actualidad y lo seguirá haciendo mucho más en el futuro, no solo para una rama
+                        específica, sino que está y estará presente en todos los rubros que podamos imaginar. <i class="fas fa-heart "></i></p>
+
                 </div>
+
+            </div>
+            <a class="btn btn-dark btn-xl js-scroll-trigger " style="margin-bottom: 2rem; " href="#educacion"> Educación</a>
+
+
+    </section>
+
+
+    <!-- Educacion -->
+    <section class="callout " id="educacion">
+        <div class="container ">
+            <div class="content-section-heading text-center ">
+                <h2 class="mb-0">Educación</h2>
+
+                <h3 class=" text-blue mb-0 ">Mi formación</h3>
+            </div>
+            <!-- aca va mi recorrido en el tiempo -->
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2017 - Actual </h3>
+                        <span class="education__university">Universidad Nacional de La Plata</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Analista Programador Universitario</h3>
+                        <span class="education__speciality">Cursando 3er año.</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2020</h3>
+                        <span class="education__university">Universidad Nacional de La Plata</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Seminario .Net Core</h3>
+                        <span class="education__speciality">Materia de la carrera donde se vio .Net Core en un nivel
+                            básico/medio.</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year"> 2021 </h3>
+                        <span class="education__university">Universidad Nacional de La Plata</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Seminario JavaScript</h3>
+                        <span class="education__speciality">Materia en curso para poder aprender nuevas tecnologías como
+                            Angular y React.</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2021</h3>
+                        <span class="education__university">Curso MySQL</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Administración de base de datos</h3>
+                        <span class="education__speciality">Actualmente tomando un curso de base de datos MySQL.</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class=" row ">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+        <i class="icon-arrow-right "></i>
+
+        
+
+                </span>
+                    <h4>
+                        <strong>HTML</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Diseño y creación de páginas web de cualquier rubro del mundo laboral.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+        <i class="icon-screen-smartphone "></i>
+      </span>
+                    <h4>
+                        <strong>CSS</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Todo proyecto web es completamente responsive para todo tipo de dispositivo móvil.</p>
+                </div>
+                <div class=" col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+        <i class="icon-pencil "></i>
+      </span>
+                    <h4>
+                        <strong>JAVASCRIPT</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Producción de interfaces intuitivas, centradas en la usabilidad y accesibilidad que se construye desde la empatía con las personas, alineando sus necesidades con los objetivos del negocio.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                    <i class="icon-like "></i>
+                </span>
+                    <h4>
+                        <strong>Comunicación con los clientes</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Planificación e implementación de preguntas concretas para la recolección de requerimientos con el fin de obtener feedback logrando un mensaje claro y conciso.
+
+                        <i class="fas fa-heart "></i></p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                    <i class="icon-note "></i>
+                </span>
+                    <h4>
+                        <strong>Capacitación</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Dispuesta a seguir aprendiendo y poder obtener más experiencia sobre las tecnologías que requiera la empresa.
+                        <i class="fas fa-heart "></i></p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                    <i class="icon-globe "></i>
+                </span>
+                    <h4>
+                        <strong>Idiomas</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Inglés en nivel intermedio, actualmente realizando inglés conversacional. <i class="fas fa-heart "></i></p>
+                </div>
+
+
+            </div>
+            <div class="container text-center ">
+                <a class="btn btn-primary btn-xl " href="#misCapacidades"> Mis capacidades</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Mis capacidades -->
+    <section class="content-section bg-primary text-white text-center " id="misCapacidades">
+        <div class="container ">
+            <div class="content-section-heading ">
+                <h2 class="mb-4 ">Mis capacidades</h2>
+
+                <h3 class="text-secondary mb-0 ">Lo que ofrezco</h3>
+
+
+            </div>
+            <div class=" row ">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="icon-arrow-right "></i>
+
+            
+
+                    </span>
+                    <h4>
+                        <strong>Frontend Developer</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Diseño y creación de páginas web de cualquier rubro del mundo laboral.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="icon-screen-smartphone "></i>
+          </span>
+                    <h4>
+                        <strong>Interfaz móvil</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Todo proyecto web es completamente responsive para todo tipo de dispositivo móvil.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                        <i class="icon-note "></i>
+                    </span>
+                    <h4>
+                        <strong>Capacitación</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Dispuesta a seguir aprendiendo y poder obtener más experiencia sobre las tecnologías que requiera la empresa.
+                        <i class="fas fa-heart "></i></p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                        <i class="icon-globe "></i>
+                    </span>
+                    <h4>
+                        <strong>Idiomas</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Inglés en nivel intermedio, actualmente realizando inglés conversacional. <i class="fas fa-heart "></i></p>
+                </div>
+
+                <div class=" col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="icon-pencil "></i>
+          </span>
+                    <h4>
+                        <strong>UX/UI</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Producción de interfaces intuitivas, centradas en la usabilidad y accesibilidad que se construye desde la empatía con las personas, alineando sus necesidades con los objetivos del negocio.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                        <i class="icon-like "></i>
+                    </span>
+                    <h4>
+                        <strong>Comunicación con los clientes</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Planificación e implementación de preguntas concretas para la recolección de requerimientos con el fin de obtener feedback logrando un mensaje claro y conciso.
+
+                        <i class="fas fa-heart "></i></p>
+                </div>
+
+
+
+            </div>
+            <div class="container text-center ">
+                <a href="#services" class="btn btn-xl btn-dark ">Skill</a>
             </div>
         </div>
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
-        <div class="container">
-            <div class="content-section-heading">
-                <h3 class="text-secondary mb-0">Services</h3>
-                <h2 class="mb-5">What We Offer</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-                    <h4>
-                        <strong>Responsive</strong>
-                    </h4>
-                    <p class="text-faded mb-0">Looks great on any screen size!</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-                    <h4>
-                        <strong>Redesigned</strong>
-                    </h4>
-                    <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-                    <h4>
-                        <strong>Favorited</strong>
-                    </h4>
-                    <p class="text-faded mb-0">Millions of users
-                        <i class="fas fa-heart"></i> Start Bootstrap!</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-                    <h4>
-                        <strong>Question</strong>
-                    </h4>
-                    <p class="text-faded mb-0">I mustache you a question...</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="callout " id="services">
+        <div class="container ">
+            <div class="content-section-heading text-center ">
+                <h2 class="mb-0">Skills</h2>
 
-    <!-- Callout -->
-    <section class="callout">
-        <div class="container text-center">
-            <h2 class="mx-auto mb-5">Welcome to
-                <em>your</em> next website!</h2>
-            <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+                <h3 class=" text-blue mb-0 ">¿Porque elegirme?</h3>
+
+                <h2 class="mb-0 ">Mi área de especialización</h2>
+            </div>
+            <div class=" row ">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="icon-arrow-right "></i>
+
+            
+
+                    </span>
+                    <h4>
+                        <strong>HTML</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Diseño y creación de páginas web de cualquier rubro del mundo laboral.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="icon-screen-smartphone "></i>
+          </span>
+                    <h4>
+                        <strong>CSS</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Todo proyecto web es completamente responsive para todo tipo de dispositivo móvil.</p>
+                </div>
+                <div class=" col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+            <i class="icon-pencil "></i>
+          </span>
+                    <h4>
+                        <strong>JAVASCRIPT</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Producción de interfaces intuitivas, centradas en la usabilidad y accesibilidad que se construye desde la empatía con las personas, alineando sus necesidades con los objetivos del negocio.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                        <i class="icon-like "></i>
+                    </span>
+                    <h4>
+                        <strong>Comunicación con los clientes</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Planificación e implementación de preguntas concretas para la recolección de requerimientos con el fin de obtener feedback logrando un mensaje claro y conciso.
+
+                        <i class="fas fa-heart "></i></p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                        <i class="icon-note "></i>
+                    </span>
+                    <h4>
+                        <strong>Capacitación</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Dispuesta a seguir aprendiendo y poder obtener más experiencia sobre las tecnologías que requiera la empresa.
+                        <i class="fas fa-heart "></i></p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                        <i class="icon-globe "></i>
+                    </span>
+                    <h4>
+                        <strong>Idiomas</strong>
+                    </h4>
+                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Inglés en nivel intermedio, actualmente realizando inglés conversacional. <i class="fas fa-heart "></i></p>
+                </div>
+
+
+            </div>
+            <div class="container text-center ">
+                <a class="btn btn-primary btn-xl " href="#proyecto"> Proyectos</a>
+            </div>
         </div>
+
     </section>
 
     <!-- Seccion de Proyectos -->
-    <section class="content-section" id="proyecto">
-        <div class="container">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Proyectos</h3>
-                <h2 class="mb-5">Proyectos recientes</h2>
+    <section class="content-section " id="proyecto">
+        <div class="container ">
+            <div class="content-section-heading text-center ">
+
+                <h2 class="mb-4 ">Proyectos</h2>
+                <h3 class="text-secondary mb-4 ">Proyectos recientes</h3>
             </div>
-            <div class="row no-gutters">
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Juego OKS</div>
-                                <p class="mb-0">Es un juego de multiple choice donde los jugadores deben reconocer canciones y elegir la opción correcta.</p>
+            <div class="row no-gutters ">
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="#! ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Juego OKS</div>
+                                <p class="mb-0 ">Es un juego de multiple choice donde los jugadores deben reconocer canciones y elegir la opción correcta.</p>
                             </div>
                         </div>
                         <!-- Imagenes de Proyectos tamaño: 700x467-->
-                        <img class="img-fluid" src="img/oks.png" alt="">
+                        <img class="img-fluid " src="img/oks.png " alt=" ">
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Veterinaria Patitas</div>
-                                <p class="mb-0">Es un sitio web de una veterinaria.</p>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="#! ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Veterinaria Patitas</div>
+                                <p class="mb-0 ">Es un sitio web de una veterinaria.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/patitas.png" alt="">
+                        <img class="img-fluid " src="img/patitas.png " alt=" ">
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Prosecretaría de asuntos estudiantiles</div>
-                                <p class="mb-0">Sitio web de administracion de becas de la UNLP.</p>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="#! ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Prosecretaría de asuntos estudiantiles</div>
+                                <p class="mb-0 ">Sitio web de administracion de becas de la UNLP.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/pae.png" alt="">
+                        <img class="img-fluid " src="img/pae.png " alt=" ">
                     </a>
                 </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#!">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <div class="h2">Lista de productos</div>
-                                <p class="mb-0">Generador de lista de productos en formato pdf.</p>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " href="#! ">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Lista de productos</div>
+                                <p class="mb-0 ">Generador de lista de productos en formato pdf.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/comprobante.png" alt="">
+                        <img class="img-fluid " src="img/comprobante.png " alt=" ">
                     </a>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
-        <div class="container text-center">
-            <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-            <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
-            <a href="#!" class="btn btn-xl btn-dark">Look at Me!</a>
+        <div class="container text-center " style="margin-top: 2rem;">
+            <a href="#contact" class="btn btn-xl btn-dark ">Contacto</a>
         </div>
     </section>
 
-    <!-- Map -->
-    <div id="contact" class="map">
-        <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
+
+
+    <!-- Contacto -->
+    <div id="contact">
+        <div class="content-section-heading content-section bg-primary text-white text-center ">
+
+            <h2 class="mb-4 ">Contacto</h2>
+            <h3 class="text-secondary mb-4 ">Ponerse en contacto</h3>
+            <h2 style="font-size: 1.6rem; ">¡Gracias por visitar mi portfolio! Si usted posee alguna inquietud no dude en consultarme.</h2>
+            <br>
+            <div class="container ">
+                <div class=" row ">
+
+
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="https://www.linkedin.com/in/oriana-ailigo/ ">
+                            <i class="icon-social-linkedin "></i>
+                        </a>
+                        <h3 style="font-size: medium; ">
+                            <strong>Linkedin</strong>
+                        </h3>
+                        <p>Contáctame: oriana-ailigo</p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href=" https://www.instagram.com/ori_ailigo/ ">
+                            <i class="icon-social-instagram "></i>
+                        </a>
+                        <h3 style="font-size: medium; ">
+                            <strong>Instagram</strong>
+                        </h3>
+                        <p>Sigueme: ori_ailigo</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="mailto:oriailigo@gmail.com ">
+                            <i class="icon-envelope "></i>
+                        </a>
+                        <h3 style="font-size: medium; ">
+                            <strong>Correo</strong>
+                        </h3>
+                        <p>Escríbeme: oriailigo@gmail.com</p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="https://github.com/Oriailigo ">
+                            <i class="icon-social-github "></i>
+                        </a>
+                        <h3 style="font-size: medium; ">
+                            <strong>Github</strong>
+                        </h3>
+                        <p>Sigueme: Oriailigo </p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; ">
+                            <i class=" icon-phone "></i>
+                        </a>
+                        <h3 style="font-size: medium; ">
+                            <strong>Teléfono</strong>
+                        </h3>
+                        <p> Llamame: +542920567599</p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
     <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container">
-            <ul class="list-inline mb-5">
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#!">
-                        <i class="icon-social-facebook"></i>
+    <!-- <footer class="footer text-center "> -->
+    <!-- <div class="container ">
+            <ul class="list-inline mb-5 ">
+                <li class="list-inline-item ">
+                    <a class="social-link rounded-circle text-white mr-3 " href="https://www.linkedin.com/in/oriana-ailigo/ ">
+                        <i class="icon-social-linkedin "></i>
                     </a>
+                    <h4 style="font-size: 1.2rem; ">
+                        <strong>Linkedin</strong> <br>
+                    </h4>
+                    <p> Contáctame</p>
+
+
                 </li>
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="#!">
-                        <i class="icon-social-twitter"></i>
+                <li class="list-inline-item ">
+                    <a class="social-link rounded-circle text-white mr-3 " href="https://www.instagram.com/ori_ailigo/ ">
+                        <i class="icon-social-instagram "></i>
                     </a>
+                    <h4 style="font-size: 1.2rem; ">
+                        <strong>Instagram</strong> <br>
+                    </h4>
+                    <p> Sigueme</p>
                 </li>
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white" href="#!">
-                        <i class="icon-social-github"></i>
+                <li class="list-inline-item ">
+
+
+                    <a class="social-link rounded-circle text-white " href="https://github.com/Oriailigo ">
+                        <i class="icon-social-github "></i>
                     </a>
+                    <h4 style="font-size: 1.2rem; ">
+                        <strong>Github</strong> <br>
+                    </h4>
+                    <p> Sigueme</p>
+
+
+                </li>
+                <li class="list-inline-item ">
+
+
+                    <a class="social-link rounded-circle text-white " href="mailto:oriailigo@gmail.com ">
+                        <i class="icon-envelope "></i>
+                    </a>
+                    <h4 style="font-size: 1.2rem; ">
+                        <strong>Email</strong> <br>
+                    </h4>
+                    <p> Escríbeme</p>
+
+
+                </li>
+                <li class="list-inline-item ">
+
+
+                    <a class="social-link rounded-circle text-white ">
+                        <i class="icon-phone "></i>
+                    </a>
+                    <h4 style="font-size: 1.2rem; ">
+                        <strong>Teléfono</strong> <br>
+                    </h4>
+                    <p> +542920567599</p>
+
+
                 </li>
             </ul>
-            <p class="text-muted small mb-0">Copyright &copy; Your Website 2020</p>
+            <p class="text-muted small mb-0 " style="font-size: 1.2rem; ">Copyright &copy; 2021 Oriana Ailigo. Todos los derechos reservados.</p>
+        </div> -->
+    <footer class="container-footerm " style="width: 100%; background-color: #101010; display: flex; padding: 20px; gap: 2rem; justify-content: space-evenly; ">
+        <div>
+            <div class="copyright " style="color: antiquewhite; ">
+                @2021 Todos los derechos reservados | <a href=" ">Oriana Ailigo</a>
+
+            </div>
+            <div class="information">
+                <a href="#page-top"> Inicio | </a>
+                <a href="#about"> Acerca de mi | </a>
+                <a href="#misCapacidades"> Mis capacidades | </a>
+                <a href="#services"> Skills | </a>
+                <a href="#proyecto"> Proyectos | </a>
+                <a href="#contact"> Contacto | </a>
+
+            </div>
         </div>
     </footer>
 
     <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-        <i class="fas fa-angle-up"></i>
+    <a class="scroll-to-top rounded js-scroll-trigger " href="#page-top ">
+        <i class="fas fa-angle-up "></i>
     </a>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/stylish-portfolio.min.js "></script>
 
     <!-- boton-explota -->
-    <script src="./js/boton-explota.js"></script>
+    <script src="./js/boton-explota.js "></script>
 
 </body>
 

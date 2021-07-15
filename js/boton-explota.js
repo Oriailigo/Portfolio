@@ -61,8 +61,7 @@ function createParticle(x, y, type) {
     });
     animation.onfinish = removeParticle;
 
-    // redireccionar
-    //redireccioname;
+
 
 }
 
@@ -74,7 +73,11 @@ function removeParticle(e) {
 // esto hace la animacion de los corazones
 if (document.body.animate) {
     document.querySelectorAll('button').forEach(button => button.addEventListener('click', pop));
+    // redireccionar
 
+
+
+    redireccioname;
 }
 
 
