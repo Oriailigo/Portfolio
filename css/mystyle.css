@@ -203,14 +203,18 @@ p {
 }
 
 .content span {
-    font-size: 1.2rem;
     font-weight: bold;
 }
 
-.content p {
-    text-align: justify;
-    line-height: 2;
-    font-size: 1rem;
+
+/*para telefono*/
+
+@media (min-width:768px) {
+    /*para pc o tablet*/
+    .content p {
+        text-align: left;
+        line-height: 2;
+    }
 }
 
 
