@@ -9,8 +9,6 @@
         $(this).toggleClass("active");
     });
 
-
-
     // Smooth scrolling using jQuery easing
 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {

@@ -209,10 +209,15 @@ p {
 
 /*para telefono*/
 
+.content p {
+    text-align: left;
+    line-height: 2;
+}
+
 @media (min-width:768px) {
     /*para pc o tablet*/
     .content p {
-        text-align: left;
+        text-align: center;
         line-height: 2;
     }
 }
