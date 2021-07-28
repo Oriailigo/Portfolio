@@ -63,14 +63,16 @@ body {
                     }
                 }
                 
-                h1 {
-                    font-size: 3rem;
+                @media (max-width:768px) {
+                    h1 {
+                        font-size: 2.5rem;
+                    }
                 }
                 
                 @media (min-width:768px) {
                     /*PC y tablet*/
                     h1 {
-                        font-size: 4rem;
+                        font-size: 3rem;
                     }
                 }
                 
@@ -83,7 +85,7 @@ body {
                 @media (min-width:768px) {
                     /*PC y tablet*/
                     h2 {
-                        font-size: 3rem;
+                        font-size: 2.5rem;
                     }
                 }
                 
@@ -220,7 +222,6 @@ body {
                 }
                 
                 .masthead h1 {
-                    font-size: 3rem;
                     margin: 0;
                     padding: 0;
                 }
@@ -230,7 +231,13 @@ body {
                         height: 100vh;
                     }
                     .masthead h1 {
-                        font-size: 5.5rem;
+                        font-size: 4rem;
+                    }
+                    .masthead h2 {
+                        font-size: 3rem;
+                    }
+                    .masthead h3 {
+                        font-size: 2.5rem;
                     }
                 }
                 /* Side Menu */
