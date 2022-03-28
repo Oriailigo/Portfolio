@@ -39,55 +39,103 @@
 
 
 
+
+
 </head>
 
 <body id="page-top">
 
     <!-- Navigation -->
 
-    <div class="menu-toggle-idioma dropbtn" href="!#" onclick="divLogin()">
+    <!-- <div class="menu-toggle-idioma dropbtn" href="!#" onclick="divLogin()">
         <i class="fas fa-globe"></i>
     </div>
-    <div id="lista" style="display:none" class="dropdown-content">
-
-        <a class="dropdown" href="#">Inglés</a>
-        <a class="dropdown" href="#page-top">Español</a>
-
-    </div>
-    <!-- sigue la barra de menu -->
-
-    <a class="menu-toggle rounded" href="#!">
-        <i class="fas fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#page-top">Estas en el menu</a>
+    <div id="lista" style="display:none" class="dropdown-content rounded">
+        <ul>
+            <li>
+                <a class="dropdown" href="#">Inglés</a>
             </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#page-top">Inicio</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">Acerca de mi</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#educacion">Educación</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#misCapacidades">Mis capacidades</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#services">Skills</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#proyecto">Proyectos</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#contact">Contacto</a>
+            <li>
+                <a class="dropdown" href="#page-top">Español</a>
             </li>
         </ul>
-    </nav>
+        
 
+
+    </div> -->
+
+<div class="flex-contenedor">
+       <!-- traductor de google -->
+       <style type="text/css">
+        .translated-ltr{margin-top: -40px;}
+        .translated-ltr{margin-top: -40px;}
+        .goog-te-banner-frame{display: none; margin-top: 2rem;}
+        .goog-logo-link{
+          display: none !important;
+        }
+        .goog-te-gadget{
+          color: transparent !important;
+        }
+        .goog-te-gadget .goog-te-combo {
+            margin: 4px 0;
+            margin-top: 2rem;
+        } 
+        .goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 10pt;
+            /* color: white;
+            background-color: grey; */
+            border-color: #101010;
+            border-width: 0.1rem;
+            cursor: pointer;
+        }
+      </style>  
+
+        <div id="google_translate_element"></div>
+
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'sp'}, 'google_translate_element');
+        }
+        </script>
+
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+         <!-- sigue la barra de menu -->
+         <a class="menu-toggle rounded" href="#!">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="js-scroll-trigger" href="#page-top">Estás en el menú</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#page-top">Inicio</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#about">Acerca de mi</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#educacion">Educación</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#misCapacidades">Mis capacidades</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#services">Skills</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#proyecto">Proyectos</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    
+</div>
+   
     <!-- Header -->
     <header class="masthead d-flex">
         <div class="container my-auto">
@@ -100,14 +148,7 @@
                     </h1>
 
                 </div>
-                <div class="col-sm  visible-xs text-center ">
-                    <h1 class="typewrite" style=" text-decoration: none; text-shadow: 1px 1px 2px black;
-                    color: white;" data-period="2000 " data-type='[ "HOLA " ]'>
-
-                    </h1>
-                    <!-- <h1 class="home__title " style=" text-shadow: 1px 1px 2px black; color: white; ">HOLA. </h1> -->
-
-                </div>
+                
                 <div class="col-sm text-center ">
                     <img src="/img/fotoorinegro.png" alt="foto de perfil " style="width:200px; height:200px; border-radius:200px; ">
 
@@ -119,7 +160,7 @@
 
                     </h1>
 
-                    <h2 class="mb-1 typewrite ">Frontend Developer Jr </h2>
+                    <!-- <h2 class="mb-1 typewrite ">Frontend Developer Jr </h2> -->
                     <h3 class="mb-1 typewrite ">Oriana Carolina Ailigo</h3>
 
                 </div>
@@ -243,6 +284,17 @@
                         <h2>2021</h2>
                         <p>
                             <span>Tienda de ropa para bebé.</span> Se realizó una web con el objetivo de mostrar el contenido de los productos y su venta. Se utilizó html, css, grid, flexbox.
+                        </p>
+                    </div>
+                </div>
+                <div class="container-time left ">
+                    <div class="content ">
+                        <h2>2021</h2>
+                        <p>
+                            <span>PWA Generar conciencia.</span> Se realizó una PWA para el evento "Generar conciencia" que centra toda la información verídica
+                            acerca de desastres naturales dirigido a niños/as de 9 a 12 años para que puedan acceder e
+                            informarse de las catástrofes naturales de diversos países. Se utilizó js, html, css, python, watson
+                            assistant, sass y Leaflet para manejar mapas interactivos. 
                         </p>
                     </div>
                 </div>
@@ -427,7 +479,7 @@
             </a>
         </div> -->
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="https://veterinariapatitasori.netlify.app/ ">
+                    <a class="portfolio-item " id="veterinaria">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Veterinaria Patitas</div>
@@ -438,7 +490,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="https://bebetiendas.netlify.app// ">
+                    <a class="portfolio-item " id="bebe">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">CreacionesBuho</div>
@@ -449,7 +501,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="https://tiendaremera.netlify.app/ ">
+                    <a class="portfolio-item " id="remera">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Frontend Store</div>
@@ -462,7 +514,7 @@
 
 
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="https://prosecretaria-nuevo-site.netlify.app/ ">
+                    <a class="portfolio-item " id="becas">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Prosecretaría de asuntos estudiantiles</div>
@@ -473,7 +525,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="https://boleta-de-productos.netlify.app/ ">
+                    <a class="portfolio-item " id="boleta">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Lista de productos</div>
@@ -484,7 +536,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="https://expo-generar-conciencia.herokuapp.com/">
+                    <a class="portfolio-item " id="evento">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Generar conciencia</div>
@@ -609,6 +661,11 @@
 
     <!-- mostrar-idiomas -->
     <script src="./js/mostrar-idiomas.js "></script>
+    
+    <!-- sweet alert -->
+    <script src="./js/index.js">
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 

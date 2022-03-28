@@ -1,14 +1,17 @@
 .portfolio-item {
+  
   display: block;
   position: relative;
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
   .caption {
+    cursor: pointer;
     display: flex;
+    justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: fade-out($gray-900, 0.8);
+    background-color: rgba(0, 0, 0, 0.801);
     position: absolute;
     top: 0;
     bottom: 0;
