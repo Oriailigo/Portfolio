@@ -21,7 +21,7 @@ body {
 
 .content-section-heading {
   h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   h3 {
     font-size: 1rem;
@@ -38,7 +38,10 @@ h5,
 h6 {
   font-weight: 700;
 }
-
+.h1_titulo{
+  font-size: 1rem!important;
+  text-decoration: none; color: #131313;
+}
 .text-faded {
   color: fade-out($white, 0.3);
 }
