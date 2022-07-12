@@ -7,305 +7,305 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="manifest" href="manifest.json">
+    
 
-    <title>Stylish Portfolio - Start Bootstrap Template</title>
+    <title>Oriana Ailigo</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+
+    <!-- NOTOSANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- SANS PRO -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/boton-explota.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mystyle.css">
 
     <!-- Custom js -->
     <script src="./js/letras.js"></script>
-
-
-
 </head>
 
 <body id="page-top">
 
     <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
-        <i class="fas fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#page-top">Estas en el menu</a>
+
+    <!-- <div class="menu-toggle-idioma dropbtn" href="!#" onclick="divLogin()">
+        <i class="fas fa-globe"></i>
+    </div>
+    <div id="lista" style="display:none" class="dropdown-content rounded">
+        <ul>
+            <li>
+                <a class="dropdown" href="#">Inglés</a>
             </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#page-top">Inicio</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">Acerca de mi</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#misCapacidades">Mis capacidades</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#services">Skills</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#proyecto">Proyectos</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#contact">Contacto</a>
+            <li>
+                <a class="dropdown" href="#page-top">Español</a>
             </li>
         </ul>
-    </nav>
+        
 
+
+    </div> -->
+
+<div class="flex-contenedor">
+       <!-- traductor de google -->
+       <style type="text/css">
+        .translated-ltr{margin-top: -40px;}
+        .translated-ltr{margin-top: -40px;}
+        .goog-te-banner-frame{display: none; margin-top: 2rem;}
+        .goog-logo-link{
+          display: none !important;
+        }
+        .goog-te-gadget{
+          color: transparent !important;
+        }
+        .goog-te-gadget .goog-te-combo {
+            /* margin: 4px 0; */
+            margin-top: 2rem;
+        } 
+        .goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon * {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 10pt;
+            /* color: white;
+            background-color: grey; */
+            border-color: #101010;
+            border-width: 0.1rem;
+            cursor: pointer;
+        }
+      </style>  
+
+        <div id="google_translate_element" class="traductor_margin"></div>
+
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'sp'}, 'google_translate_element');
+        }
+        </script>
+
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+         <!-- sigue la barra de menu -->
+         <a class="menu-toggle rounded" href="#!">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="js-scroll-trigger" href="#page-top">Estás en el menú</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#page-top">Inicio</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#about">Acerca de mi</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#educacion">Educación</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#misCapacidades">Mis capacidades</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#services">Skills</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#proyecto">Proyectos</a>
+                </li>
+                <li class="sidebar-nav-item">
+                    <a class="js-scroll-trigger" href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    
+</div>
+   
     <!-- Header -->
     <header class="masthead d-flex">
         <div class="container my-auto">
             <div class="row">
-                <div class="col-sm">
-                    <h1 class="home__title" style="color: aliceblue; text-shadow: 0 20px 25px rgba(0, 0, 0, 0.8);"><span style="color: aliceblue;">HO</span> <br> LA. </h1>
-                </div>
-                <div class="col-sm text-center">
-                    <img src="/img/f6n.jpg" style="width: 200px; height: 200px; border-radius:150px;">
+                <div class="col-sm hidden-xs text-right esconder_cel ">
+                    <!-- <h1 class="home__title" style="color: aliceblue; text-shadow: 1px 1px 2px black;">HO <br> LA. </h1> -->
+                    <h1 class="typewrite" style=" text-decoration: none; text-shadow: 1px 1px 2px black;
+                    color: white;" data-period="2000 " data-type='[ "HOLA"]'>
 
-                    <h3 class="mb-5" style="font-size: 4rem;">
-                        <a href="" class="typewrite" style=" text-decoration: none; color: #131313;" data-period="2000" data-type='[ "Frontend", "Developer" ]'>
-                            <span class="wrap"></span>
-                        </a>
-                    </h3>
-                    <h2 class="mb-1 typewrite" style="font-size: 3rem;">Soy Oriana Carolina Ailigo </h2>
-                    <h3 class="mb-1 typewrite" style="font-size: 2rem;">Ingeniera en computación</h3>
-                    <!-- <h3 class="mb-5" style="font-size: 4rem;">
-                        <em>Frontend Developer</em>
-                    </h3> -->
+                    </h1>
+
                 </div>
+                
+                <div class="col-sm text-center ">
+                    <img src="/img/fotoorinegro.webp" width="50%" height="50%" loading="lazy" alt="foto de perfil " style=" border-radius:100%; ">
+
+                    <!-- 
+                    <h1 href=" " class="typewrite " style=" text-decoration: none; color: #131313; " data-period="2000 " data-type='[ "Frontend Developer " ]'>
+                        <span class="wrap "></span>
+                    </h1> -->
+                    <h1 class="h1_titulo"> Ingeniera en computación
+
+                    </h1>
+
+                    <!-- <h2 class="mb-1 typewrite ">Frontend Developer Jr </h2> -->
+                    <h3 class="mb-1 typewrite ">Oriana Carolina Ailigo</h3>
+
+                </div>
+                <div class=" container text-center">
+                    <a href="pdf/orianaAiligo _CV.pdf" target="_blank " class="btn btn-primary btn-xl "> Descargar CV </a>
+                </div>
+                <!-- <div class="col-sm-12 " style="margin-top: 4rem; text-align: center; ">
+                    <form><a href="#about " class="btn btn-primary btn-xl " type="submit ">Acerca de mi</a></form>
+                </div> -->
+
             </div>
-
-
-
-
-
-
-
-            <!-- <div class="text-center wrapper">
-                <a class="btn btn-primary btn-xl js-scroll-trigger" data-type="emoji" href="#about">Acerca de mi</a>
-            </div> 
-        
-         js-scroll-trigger"
-        -->
-            <div class="text-center wrapper" data-type="emoji"></div>
-            <form>
-
-                <a href="#about" class="btn btn-primary btn-xl" type="submit">Acerca de mi</a>
-
-
-            </form>
         </div>
-        <span class="preloader"></span>
-
-        </div>
-        <div class="overlay"></div>
     </header>
 
     <!-- About -->
-    <section class="content-section-heading" id="about" style="margin: 2rem auto 2rem auto;  ">
+    <section class="content-section-heading" id="about" style="margin: 2rem auto 2rem auto; font-family: 'Noto Sans JP', sans-serif; ">
 
-        <div class="container text-center" style="
-            -webkit-box-shadow: 0px 7px 18px 4px rgb(0 0 0 / 38%);
-            -moz-box-shadow: 0px 7px 18px 4px rgba(0, 0, 0, 0.38);
-            box-shadow: 0px 7px 18px 4px rgb(0 0 0 / 38%);
-        ">
-            <h2 class="mb-2 " style=" padding-top: 2rem; ">Acerca de mi</h2>
+        <div class="container text-center " style=" -webkit-box-shadow: 0px 7px 18px 4px rgb(0 0 0 / 38%); -moz-box-shadow: 0px 7px 18px 4px rgba(0, 0, 0, 0.38); box-shadow: 0px 7px 18px 4px rgb(0 0 0 / 38%); ">
+            <h2 class="mb-2 " style="padding-top: 2rem; ">Acerca de mi</h2>
             <div class="row ">
 
-                <div style="text-align: justify; margin: 20px 30px 20px 30px; ">
+                <div style="text-align: justify; margin: 30px 40px 30px 40px; line-height: 2.3; ">
 
 
-                    <p class="lead mb-3 " style="font-size: 1.6rem;"> ¡Hola! mi nombre es Oriana Ailigo, soy Ingeniera en computación. Mis amigos me apodan “Ori”, tengo 25 años, vivo en La Plata, Argentina, aunque mi lugar de origen es en Viedma, Rio Negro. </p>
-                    <p class="lead mb-3 " style="font-size: 1.6rem; ">Mi propósito es realizar una web de acceso rápido, fácil de usar, atractivo, accesible para cualquier usuario lo cual no implica frustraciones. Durante el proceso utilizo las mejores prácticas de UI/UX, siendo el mismo lo que más me
-                        llama la atención, ya que a través del diseño busco nuevas formas para mejorar las relaciones entre las personas y el mundo que los rodea. Tengo curiosidad acerca de los problemas cotidianos y las vivencias de las personas, este
-                        es el motivo por el cual creo que escuchando, se puede aprender muchísimo antes de comenzar a solucionar los problemas de manera efectiva.</p>
-                    <h3 class="mb-1 " style="font-size: 1.6rem; ">Pasatiempos:</h3>
+                    <p class="mb-3"> ¡Hola! mi nombre es Oriana Ailigo, soy Ingeniera en computación. Mis amigos me apodan “Ori”, tengo 25 años, vivo en La Plata, Argentina, aunque nací en Viedma, Rio Negro. </p>
 
-                    <p class="lead mb-3 " style="font-size: 1.6rem; ">
-                        Me gusta ver películas de comedia y acción. Además me gusta caminar, viajar, tomar mates con amigos, escuchar música en inglés, aprender inglés, y aprender sobre tecnologías de manera autodidacta.</p>
-                    <h3 class="mb-1 " style="font-size: 1.6rem; ">Deportes:</h3>
-                    <p class="lead mb-3 " style="font-size: 1.6rem; "> Mi deporte favorito es el handball y juego desde los 9 años. Mi posición siempre fue la punta izquierda. Otros deportes que me gustan son el tenis, voley y basket.</p>
-                    <h3 class="mb-1 " style="font-size: 1.6rem; ">Objetivo: </h3>
-                    <p class="lead mb-3 " style="font-size: 1.6rem; ">Enseñarle y mostrarle a mi familia y amigos que la tecnología es parte de nuestra vida cotidiana y su avance es extraordinario ya que está arrasando en la actualidad y lo seguirá haciendo mucho más en el futuro, no solo para una rama
-                        específica, sino que está y estará presente en todos los rubros que podamos imaginar. <i class="fas fa-heart "></i></p>
+                    <h3 class="mb-1 ">Experiencia:</h3>
+                    <p class="mb-3 "> <a id="enlace" href="#proyecto">Proyectos</a> propios. Disponibilidad Full-Time | Part-Time.
+                        <h3 class="mb-1 ">Objetivo: </h3>
+
+                        <p class=" mb-3 ">Mi propósito es realizar una interfaz de acceso rápido, fácil de usar, atractivo, accesible para cualquier tipo de usuarios, se tiene en cuenta no sólo la edad sino la condición física y escasos recursos tecnológicos que pueda poseer. Durante el proceso utilizo las mejores prácticas de UI/UX, siendo el mismo lo que más me llama la atención, ya que a través del diseño busco nuevas formas para mejorar las relaciones entre las personas y el mundo
+                            que los rodea. Con <a id="enlace" href="#misCapacidades">mis capacidades</a> planeo resolver problemas de la vida cotidiana, teniendo en cuenta las vivencias de las personas, este es el motivo por el cual creo que escuchando,
+                            se puede aprender muchísimo antes de comenzar a solucionar los problemas de manera efectiva.
+                        </p>
+                        <h3 class="mb-1 ">Pasatiempos:</h3>
+
+                        <p class="mb-3 ">
+                            Me gusta ver películas de comedia y acción. Además me gusta caminar, viajar, tomar mates con amigos, escuchar música en inglés, aprender inglés, y aprender sobre tecnologías de manera autodidacta.</p>
+                        <h3 class="mb-1 ">Deportes:</h3>
+                        <p class="mb-3 "> Me gustan diferentes deportes, entre ellos, el basket, tenis, voley y handball.</p>
 
                 </div>
 
             </div>
-            <a class="btn btn-dark btn-xl js-scroll-trigger " style="margin-bottom: 2rem; " href="#educacion"> Educación</a>
-
-
+            <!-- <a class="btn btn-dark btn-xl js-scroll-trigger " style="margin-bottom: 2rem; " href="#educacion "> Educación</a> -->
     </section>
+
+    <!-- .row>.(col-md-6[key=$]>(h2{$}+p))*3 -->
 
 
     <!-- Educacion -->
-    <section class="callout " id="educacion">
-        <div class="container ">
-            <div class="content-section-heading text-center ">
-                <h2 class="mb-0">Educación</h2>
-
-                <h3 class=" text-blue mb-0 ">Mi formación</h3>
+    <section class="callout callout-custom content-section-heading " style="padding-top: 8rem; " id="educacion">
+        <div class=" no-margin ">
+            <div class="header-edu ">
+                <h2 class="mb-0 ">Educación</h2>
+                <h3 class="text-blue mb-0 ">Mi formación</h3>
             </div>
             <!-- aca va mi recorrido en el tiempo -->
 
-            <div class="education__container bd-grid">
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2017 - Actual </h3>
-                        <span class="education__university">Universidad Nacional de La Plata</span>
-                    </div>
-
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-
-                    <div>
-                        <h3 class="education__race">Analista Programador Universitario</h3>
-                        <span class="education__speciality">Cursando 3er año.</span>
+            <div class="timeline ">
+                <div class=" container-time right ">
+                    <div class="content ">
+                        <h2>2014- Actual</h2>
+                        <p>
+                            <span>Estudio Universitario: Ingeniería en Computación.</span> Finalizando Práctica Profesional Supervisada (PPS).
+                        </p>
                     </div>
                 </div>
-
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2020</h3>
-                        <span class="education__university">Universidad Nacional de La Plata</span>
-                    </div>
-
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-
-                    <div>
-                        <h3 class="education__race">Seminario .Net Core</h3>
-                        <span class="education__speciality">Materia de la carrera donde se vio .Net Core en un nivel
-                            básico/medio.</span>
+                <div class="container-time left ">
+                    <div class="content ">
+                        <h2>2019</h2>
+                        <p>
+                            <span>Sistema de alarma.</span> El propósito del proyecto es realizar una alarma que realice monitoreo en tiempo real y notifique al celular mediante un mensaje (gmail) o vía web mostrando el estado de una cerradura y la distancia
+                            actual de la persona cerca de la cerradura donde la misma se cierra si la persona se encuentra a 1 metro. Se implementó con Raspberry pi 3 en la materia Cloud Computing and IoT.
+                        </p>
                     </div>
                 </div>
-
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year"> 2021 </h3>
-                        <span class="education__university">Universidad Nacional de La Plata</span>
-                    </div>
-
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-
-                    <div>
-                        <h3 class="education__race">Seminario JavaScript</h3>
-                        <span class="education__speciality">Materia en curso para poder aprender nuevas tecnologías como
-                            Angular y React.</span>
+                <div class="container-time right ">
+                    <div class="content ">
+                        <h2>2020</h2>
+                        <p>
+                            <span>Prototipo de una página web de administración de becas existente en la universidad Nacional de La Plata.</span> El proyecto fue realizado inicialmente con Axure y luego se le incorporó WAI-ARIA con el fin de que sea accesible
+                            no solamente para alumnos/as con bajos recursos sino también para aquellos que tienen diferentes tipos de discapacidades, respetando las normas estándar ISO y la W3C durante la materia Diseño de Experiencia del Usuario.
+                        </p>
                     </div>
                 </div>
-
-                <div class="education__content">
-                    <div>
-                        <h3 class="education__year">2021</h3>
-                        <span class="education__university">Curso MySQL</span>
-                    </div>
-
-                    <div class="education__time">
-                        <span class="education__rounder"></span>
-                        <span class="education__line"></span>
-                    </div>
-
-                    <div>
-                        <h3 class="education__race">Administración de base de datos</h3>
-                        <span class="education__speciality">Actualmente tomando un curso de base de datos MySQL.</span>
+                <div class="container-time left ">
+                    <div class="content ">
+                        <h2>2020</h2>
+                        <p>
+                            <span> Página web Patitas.</span> Se realizó una web de veterinaria con el objetivo de mostrar los productos que ofrece la misma, como también otras veterinarias. Se utilizó Boostrap 4, html, css.
+                        </p>
                     </div>
                 </div>
-
-            </div>
-
-
-            <div class=" row ">
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-        <i class="icon-arrow-right "></i>
-
-        
-
-                </span>
-                    <h4>
-                        <strong>HTML</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Diseño y creación de páginas web de cualquier rubro del mundo laboral.
-                    </p>
+                <div class="container-time right ">
+                    <div class="content ">
+                        <h2>2020</h2>
+                        <p>
+                            <span> Lista de productos.</span> Sistema que permite agregar el nombre, descripción, precio y cantidad de los productos que se desee. Se puede generar un pdf donde se visualice la lista de productos ingresados.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-        <i class="icon-screen-smartphone "></i>
-      </span>
-                    <h4>
-                        <strong>CSS</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Todo proyecto web es completamente responsive para todo tipo de dispositivo móvil.</p>
+                <!-- <div class="container-time left ">
+                    <div class="content ">
+                        <h2>2020</h2>
+                        <p>
+                            <span>Juego oks.</span> Es un juego como el preguntados pero de música. Se utilizó mongoDB (NoSQL), Nodejs con express, servicios Restful.
+                        </p>
+                    </div>
+                </div> -->
+                <div class="container-time left ">
+                    <div class="content ">
+                        <h2>2021</h2>
+                        <p>
+                            <span>Tienda de ropa.</span> Se realizó una web para compras de remeras. Se utilizó html, css, grid, flexbox.
+                        </p>
+                    </div>
                 </div>
-                <div class=" col-lg-3 col-md-6 mb-5 mb-lg-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-        <i class="icon-pencil "></i>
-      </span>
-                    <h4>
-                        <strong>JAVASCRIPT</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Producción de interfaces intuitivas, centradas en la usabilidad y accesibilidad que se construye desde la empatía con las personas, alineando sus necesidades con los objetivos del negocio.</p>
+                <div class="container-time right ">
+                    <div class="content ">
+                        <h2>2021</h2>
+                        <p>
+                            <span>Tienda de ropa para bebé.</span> Se realizó una web con el objetivo de mostrar el contenido de los productos y su venta. Se utilizó html, css, grid, flexbox.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-                    <i class="icon-like "></i>
-                </span>
-                    <h4>
-                        <strong>Comunicación con los clientes</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Planificación e implementación de preguntas concretas para la recolección de requerimientos con el fin de obtener feedback logrando un mensaje claro y conciso.
-
-                        <i class="fas fa-heart "></i></p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-                    <i class="icon-note "></i>
-                </span>
-                    <h4>
-                        <strong>Capacitación</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Dispuesta a seguir aprendiendo y poder obtener más experiencia sobre las tecnologías que requiera la empresa.
-                        <i class="fas fa-heart "></i></p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-                    <i class="icon-globe "></i>
-                </span>
-                    <h4>
-                        <strong>Idiomas</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Inglés en nivel intermedio, actualmente realizando inglés conversacional. <i class="fas fa-heart "></i></p>
+                <div class="container-time left ">
+                    <div class="content ">
+                        <h2>2021</h2>
+                        <p>
+                            <span>PWA Generar conciencia.</span> Se realizó una PWA para el evento "Generar conciencia" que centra toda la información verídica
+                            acerca de desastres naturales dirigido a niños/as de 9 a 12 años para que puedan acceder e
+                            informarse de las catástrofes naturales de diversos países. Se utilizó js, html, css, python, watson
+                            assistant, sass y Leaflet para manejar mapas interactivos. 
+                        </p>
+                    </div>
                 </div>
 
 
             </div>
-            <div class="container text-center ">
-                <a class="btn btn-primary btn-xl " href="#misCapacidades"> Mis capacidades</a>
-            </div>
+
+
+            <!-- <div class=" container text-center ">
+                <a class="btn btn-primary btn-xl " href="#misCapacidades "> Mis capacidades</a>
+            </div> -->
         </div>
 
     </section>
 
     <!-- Mis capacidades -->
-    <section class="content-section bg-primary text-white text-center " id="misCapacidades">
+    <section class="content-section bg-primary text-white text-center capacidadimg " id="misCapacidades">
         <div class="container ">
             <div class="content-section-heading ">
                 <h2 class="mb-4 ">Mis capacidades</h2>
@@ -322,59 +322,72 @@
             
 
                     </span>
-                    <h4>
+                    <h3>
                         <strong>Frontend Developer</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Diseño y creación de páginas web de cualquier rubro del mundo laboral.
-                    </p>
+                    </h3>
+                    <p class="text-faded mb-2 ">Diseño y creación de páginas web de cualquier rubro del mundo laboral.
+                        <i class="fas fa-heart "></i></p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
                     <span class="service-icon rounded-circle mx-auto mb-3 ">
             <i class="icon-screen-smartphone "></i>
           </span>
-                    <h4>
+                    <h3>
                         <strong>Interfaz móvil</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Todo proyecto web es completamente responsive para todo tipo de dispositivo móvil.</p>
+                    </h3>
+                    <p class="text-faded mb-2 ">Todo proyecto web es completamente responsive para todo tipo de dispositivo móvil.<i class="fas fa-heart "></i></p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
                     <span class="service-icon rounded-circle mx-auto mb-3 ">
                         <i class="icon-note "></i>
                     </span>
-                    <h4>
+                    <h3>
                         <strong>Capacitación</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Dispuesta a seguir aprendiendo y poder obtener más experiencia sobre las tecnologías que requiera la empresa.
+                    </h3>
+                    <p class="text-faded mb-2 ">Dispuesta a seguir formándome no solo en lo que respecta a mi profesión sino en diferentes áreas que considere necesario para adquirir conocimientos y experiencias.
                         <i class="fas fa-heart "></i></p>
                 </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <span class="service-icon rounded-circle mx-auto mb-3 ">
+                        <i class="icon-people "></i>
+                    </span>
+                    <h3>
+                        <strong>Trabajo en equipo</strong>
+                    </h3>
+                    <p class="text-faded mb-2 "> Considero muy importante y valoro los aportes de mis compañeros. Me adapto fácilmente porque estoy abierta a la comunicación y diálogo. Soy responsable y exigente en el cumplimiento del trabajo.
+                        <i class="fas fa-heart "></i></p>
+                </div>
+
                 <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
 
                     <span class="service-icon rounded-circle mx-auto mb-3 ">
                         <i class="icon-globe "></i>
                     </span>
-                    <h4>
+                    <h3>
                         <strong>Idiomas</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Inglés en nivel intermedio, actualmente realizando inglés conversacional. <i class="fas fa-heart "></i></p>
+                    </h3>
+                    <p class="text-faded mb-2 "> Inglés en nivel avanzado, actualmente realizando inglés conversacional. <i class="fas fa-heart "></i></p>
                 </div>
 
-                <div class=" col-lg-3 col-md-6 mb-5 mb-lg-0 ">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
                     <span class="service-icon rounded-circle mx-auto mb-3 ">
             <i class="icon-pencil "></i>
           </span>
-                    <h4>
+                    <h3>
                         <strong>UX/UI</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Producción de interfaces intuitivas, centradas en la usabilidad y accesibilidad que se construye desde la empatía con las personas, alineando sus necesidades con los objetivos del negocio.</p>
+                    </h3>
+                    <p class="text-faded mb-2 ">Producción de interfaces intuitivas, centradas en la usabilidad y accesibilidad que se construye desde la empatía con las personas, alineando sus necesidades con los objetivos del negocio.
+                        <i class="fas fa-heart "></i>
+                    </P>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
                     <span class="service-icon rounded-circle mx-auto mb-3 ">
                         <i class="icon-like "></i>
                     </span>
-                    <h4>
+                    <h3>
                         <strong>Comunicación con los clientes</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Planificación e implementación de preguntas concretas para la recolección de requerimientos con el fin de obtener feedback logrando un mensaje claro y conciso.
+                    </h3>
+                    <p class="text-faded mb-2 "> Planificación e implementación de preguntas concretas para la recolección de requerimientos con el fin de obtener feedback logrando un mensaje claro y conciso.
 
                         <i class="fas fa-heart "></i></p>
                 </div>
@@ -382,91 +395,58 @@
 
 
             </div>
-            <div class="container text-center ">
-                <a href="#services" class="btn btn-xl btn-dark ">Skill</a>
-            </div>
+            <!-- <div class="container text-center ">
+                <a href="#services " class="btn btn-xl btn-dark ">Skill</a>
+            </div> -->
         </div>
     </section>
 
-    <!-- Services -->
-    <section class="callout " id="services">
+    <!-- Skills -->
+    <section class="callout callout-custom content-section-heading " style="padding-top: 8rem; " id="services">
         <div class="container ">
-            <div class="content-section-heading text-center ">
-                <h2 class="mb-0">Skills</h2>
+            <div class="header-skills ">
+                <h2 class="mb-0 ">Skills</h2>
 
-                <h3 class=" text-blue mb-0 ">¿Porque elegirme?</h3>
-
-                <h2 class="mb-0 ">Mi área de especialización</h2>
-            </div>
-            <div class=" row ">
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-            <i class="icon-arrow-right "></i>
-
-            
-
-                    </span>
-                    <h4>
-                        <strong>HTML</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Diseño y creación de páginas web de cualquier rubro del mundo laboral.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-            <i class="icon-screen-smartphone "></i>
-          </span>
-                    <h4>
-                        <strong>CSS</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Todo proyecto web es completamente responsive para todo tipo de dispositivo móvil.</p>
-                </div>
-                <div class=" col-lg-3 col-md-6 mb-5 mb-lg-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-            <i class="icon-pencil "></i>
-          </span>
-                    <h4>
-                        <strong>JAVASCRIPT</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; ">Producción de interfaces intuitivas, centradas en la usabilidad y accesibilidad que se construye desde la empatía con las personas, alineando sus necesidades con los objetivos del negocio.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-                        <i class="icon-like "></i>
-                    </span>
-                    <h4>
-                        <strong>Comunicación con los clientes</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Planificación e implementación de preguntas concretas para la recolección de requerimientos con el fin de obtener feedback logrando un mensaje claro y conciso.
-
-                        <i class="fas fa-heart "></i></p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-                        <i class="icon-note "></i>
-                    </span>
-                    <h4>
-                        <strong>Capacitación</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Dispuesta a seguir aprendiendo y poder obtener más experiencia sobre las tecnologías que requiera la empresa.
-                        <i class="fas fa-heart "></i></p>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-
-                    <span class="service-icon rounded-circle mx-auto mb-3 ">
-                        <i class="icon-globe "></i>
-                    </span>
-                    <h4>
-                        <strong>Idiomas</strong>
-                    </h4>
-                    <p class="text-faded mb-2 " style="font-size: 1.2rem; "> Inglés en nivel intermedio, actualmente realizando inglés conversacional. <i class="fas fa-heart "></i></p>
-                </div>
-
+                <h3 class="text-blue mb-0 ">¿Porque elegirme?</h3>
 
             </div>
-            <div class="container text-center ">
-                <a class="btn btn-primary btn-xl " href="#proyecto"> Proyectos</a>
+
+            <!-- ACA VAN LAS SKILLS BEGIN-->
+            <div class="contenedor-campos ">
+                <div class="campo ">
+                    <div class="container ">
+                        <h3><b>Lenguajes de programación</b></h3>
+                        <hr>
+                        <p>Java, C, C#, Python, HTML, JavaEE, CSS, JavaScript.</p>
+                    </div>
+                </div>
+                <div class="campo ">
+                    <div class="container ">
+                        <h3><b>Base de datos</b></h3>
+                        <hr>
+                        <p>MySQL. </p>
+                    </div>
+                </div>
+                <div class="campo ">
+                    <div class="container ">
+                        <h3><b>Frameworks</b></h3>
+                        <hr>
+                        <p>Bootstrap, Eclipse, Arduino, Angular, React Native.</p>
+                    </div>
+                </div>
+                <div class="campo ">
+                    <div class="container ">
+                        <h3><b>Metodologías</b></h3>
+                        <hr>
+                        <p>Scrum. </p>
+                    </div>
+                </div>
             </div>
+
+            <!-- ACA VAN LAS SKILLS END-->
+            <!-- <div class=" container text-center ">
+                <a class="btn btn-primary btn-xl " href="#proyecto "> Proyectos</a>
+            </div> -->
         </div>
 
     </section>
@@ -480,119 +460,151 @@
                 <h3 class="text-secondary mb-4 ">Proyectos recientes</h3>
             </div>
             <div class="row no-gutters ">
-                <div class="col-lg-6 ">
+                <!-- <div class="col-lg-6 ">
                     <a class="portfolio-item " href="#! ">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Juego OKS</div>
-                                <p class="mb-0 ">Es un juego de multiple choice donde los jugadores deben reconocer canciones y elegir la opción correcta.</p>
+                                <p class="mb-5 ">Es un juego de multiple choice donde los jugadores deben reconocer canciones y elegir la opción correcta.</p>
                             </div>
-                        </div>
-                        <!-- Imagenes de Proyectos tamaño: 700x467-->
-                        <img class="img-fluid " src="img/oks.png " alt=" ">
-                    </a>
-                </div>
+                        </div> -->
+                <!-- Imagenes de Proyectos tamaño: 700x467-->
+                <!-- <img class="img-fluid " src="img/oks.webp " alt="Imagen del juego oks. ">
+            </a>
+        </div> -->
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="#! ">
+                    <a class="portfolio-item " id="veterinaria">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Veterinaria Patitas</div>
                                 <p class="mb-0 ">Es un sitio web de una veterinaria.</p>
                             </div>
                         </div>
-                        <img class="img-fluid " src="img/patitas.png " alt=" ">
+                        <img class="img-fluid " width="100%" height="100%" loading="lazy"  src="img/patitas.webp " alt="Imágen de la página de veterinaria. ">
                     </a>
                 </div>
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="#! ">
+                    <a class="portfolio-item " id="bebe">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2">CreacionesBuho</div>
+                                <p class="mb-0">Es un sitio web de ropa para bebé.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid " width="100%" height="100%" loading="lazy" src="img/bebe.webp " alt="Imágen de sitio web de ropa para bebe. ">
+                    </a>
+                </div>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " id="remera">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Frontend Store</div>
+                                <p class="mb-0 ">Es un sitio web de ropa.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid " width="100%" height="100%" loading="lazy" src="img/remera.webp " alt="Sitio web de tienda de remeras. ">
+                    </a>
+                </div>
+
+
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " id="becas">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Prosecretaría de asuntos estudiantiles</div>
                                 <p class="mb-0 ">Sitio web de administracion de becas de la UNLP.</p>
                             </div>
                         </div>
-                        <img class="img-fluid " src="img/pae.png " alt=" ">
+                        <img class="img-fluid " src="img/pae.webp " width="100%" height="100%" loading="lazy" alt="sitio web de administración de becas ">
                     </a>
                 </div>
                 <div class="col-lg-6 ">
-                    <a class="portfolio-item " href="#! ">
+                    <a class="portfolio-item " id="boleta">
                         <div class="caption ">
                             <div class="caption-content ">
                                 <div class="h2 ">Lista de productos</div>
                                 <p class="mb-0 ">Generador de lista de productos en formato pdf.</p>
                             </div>
                         </div>
-                        <img class="img-fluid " src="img/comprobante.png " alt=" ">
+                        <img class="img-fluid " width="100%" height="100%" loading="lazy" src="img/comprobante.webp " alt="Sistema de listado de productos ">
                     </a>
                 </div>
+                <div class="col-lg-6 ">
+                    <a class="portfolio-item " id="evento">
+                        <div class="caption ">
+                            <div class="caption-content ">
+                                <div class="h2 ">Generar conciencia</div>
+                                <p class="mb-0 ">PWA para la exposición de un evento.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid " width="100%" height="100%" loading="lazy" src="img/generar.webp " alt="App de eventos ">
+                    </a>
+                </div>
+
+
             </div>
         </div>
-        <div class="container text-center " style="margin-top: 2rem;">
-            <a href="#contact" class="btn btn-xl btn-dark ">Contacto</a>
-        </div>
+        <!-- <div class="container text-center " style="margin-top: 2rem; ">
+            <a href="#contact " class="btn btn-xl btn-dark ">Contacto</a>
+        </div> -->
     </section>
-
-
 
     <!-- Contacto -->
     <div id="contact">
-        <div class="content-section-heading content-section bg-primary text-white text-center ">
+        <div class="content-section-heading content-section bg-primary text-white text-center contactoimg contactoscuro ">
 
-            <h2 class="mb-4 ">Contacto</h2>
-            <h3 class="text-secondary mb-4 ">Ponerse en contacto</h3>
-            <h2 style="font-size: 1.6rem; ">¡Gracias por visitar mi portfolio! Si usted posee alguna inquietud no dude en consultarme.</h2>
-            <br>
-            <div class="container ">
-                <div class=" row ">
+            <div class="filtro "></div>
+            <div class="container" style="margin-bottom: 10rem;">
+
+                <div class="row ">
+                    <div class="col-12 ">
+                        <h2 class="mb-4 ">Contacto</h2>
+                        <h3 class="text-secondary mb-4 ">¡Gracias por visitar mi portfolio!</h3>
+                        <h3>Si usted posee alguna inquietud no dude en consultarme.</h3>
+                        <br>
+
+                    </div>
 
 
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 col-sm-6 ">
                         <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="https://www.linkedin.com/in/oriana-ailigo/ ">
                             <i class="icon-social-linkedin "></i>
                         </a>
-                        <h3 style="font-size: medium; ">
+                        <h3>
                             <strong>Linkedin</strong>
                         </h3>
-                        <p>Contáctame: oriana-ailigo</p>
+                        <p class="text-faded mb-2 ">oriana-ailigo</p>
 
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href=" https://www.instagram.com/ori_ailigo/ ">
-                            <i class="icon-social-instagram "></i>
-                        </a>
-                        <h3 style="font-size: medium; ">
-                            <strong>Instagram</strong>
-                        </h3>
-                        <p>Sigueme: ori_ailigo</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="mailto:oriailigo@gmail.com ">
+
+                    <div class=" col-lg-3 col-md-6 mb-5 mb-md-0 col-sm-6 ">
+                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="mailto:oriailigo12@gmail.com ">
                             <i class="icon-envelope "></i>
                         </a>
-                        <h3 style="font-size: medium; ">
+                        <h3>
                             <strong>Correo</strong>
                         </h3>
-                        <p>Escríbeme: oriailigo@gmail.com</p>
+                        <p class="text-faded mb-2 ">oriailigo12@gmail.com</p>
 
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 col-sm-6 ">
                         <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="https://github.com/Oriailigo ">
                             <i class="icon-social-github "></i>
                         </a>
-                        <h3 style="font-size: medium; ">
+                        <h3>
                             <strong>Github</strong>
                         </h3>
-                        <p>Sigueme: Oriailigo </p>
+                        <p class="text-faded mb-2 ">Oriailigo </p>
 
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 ">
-                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; ">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 col-sm-6 ">
+                        <a class="service-icon rounded-circle mx-auto mb-3 btn-light " style="text-decoration: none; " href="https://wa.me/+542920567599 ">
                             <i class=" icon-phone "></i>
                         </a>
-                        <h3 style="font-size: medium; ">
+                        <h3>
                             <strong>Teléfono</strong>
                         </h3>
-                        <p> Llamame: +542920567599</p>
+                        <p class="text-faded mb-2 "> +542920567599</p>
 
                     </div>
 
@@ -604,78 +616,12 @@
         </div>
 
     </div>
-
-    <!-- Footer -->
-    <!-- <footer class="footer text-center "> -->
-    <!-- <div class="container ">
-            <ul class="list-inline mb-5 ">
-                <li class="list-inline-item ">
-                    <a class="social-link rounded-circle text-white mr-3 " href="https://www.linkedin.com/in/oriana-ailigo/ ">
-                        <i class="icon-social-linkedin "></i>
-                    </a>
-                    <h4 style="font-size: 1.2rem; ">
-                        <strong>Linkedin</strong> <br>
-                    </h4>
-                    <p> Contáctame</p>
-
-
-                </li>
-                <li class="list-inline-item ">
-                    <a class="social-link rounded-circle text-white mr-3 " href="https://www.instagram.com/ori_ailigo/ ">
-                        <i class="icon-social-instagram "></i>
-                    </a>
-                    <h4 style="font-size: 1.2rem; ">
-                        <strong>Instagram</strong> <br>
-                    </h4>
-                    <p> Sigueme</p>
-                </li>
-                <li class="list-inline-item ">
-
-
-                    <a class="social-link rounded-circle text-white " href="https://github.com/Oriailigo ">
-                        <i class="icon-social-github "></i>
-                    </a>
-                    <h4 style="font-size: 1.2rem; ">
-                        <strong>Github</strong> <br>
-                    </h4>
-                    <p> Sigueme</p>
-
-
-                </li>
-                <li class="list-inline-item ">
-
-
-                    <a class="social-link rounded-circle text-white " href="mailto:oriailigo@gmail.com ">
-                        <i class="icon-envelope "></i>
-                    </a>
-                    <h4 style="font-size: 1.2rem; ">
-                        <strong>Email</strong> <br>
-                    </h4>
-                    <p> Escríbeme</p>
-
-
-                </li>
-                <li class="list-inline-item ">
-
-
-                    <a class="social-link rounded-circle text-white ">
-                        <i class="icon-phone "></i>
-                    </a>
-                    <h4 style="font-size: 1.2rem; ">
-                        <strong>Teléfono</strong> <br>
-                    </h4>
-                    <p> +542920567599</p>
-
-
-                </li>
-            </ul>
-            <p class="text-muted small mb-0 " style="font-size: 1.2rem; ">Copyright &copy; 2021 Oriana Ailigo. Todos los derechos reservados.</p>
-        </div> -->
+    <!-- SECCION FOOTER -->
     <footer class="container-footerm " style="width: 100%; background-color: #101010; display: flex; padding: 20px; gap: 2rem; justify-content: space-evenly; ">
         <div>
             <div class="copyright " style="color: antiquewhite; ">
-                @2021 Todos los derechos reservados | <a href=" ">Oriana Ailigo</a>
-
+                <p id="tamañoenlace ">@2021 Todos los derechos reservados | <a href=" ">Oriana Ailigo</a>
+                </p>
             </div>
             <div class="information">
                 <a href="#page-top"> Inicio | </a>
@@ -706,6 +652,14 @@
 
     <!-- boton-explota -->
     <script src="./js/boton-explota.js "></script>
+
+    <!-- mostrar-idiomas -->
+    <!-- <script src="./js/mostrar-idiomas.js "></script> -->
+    
+    <!-- sweet alert -->
+    <script src="./js/index.js">
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 

@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){window.addEventListener("click",function(e){let t=document.querySelector("#sidebar-wrapper");t.classList.toggle("active"),t.classList.contains("active")&&t.classList.remove("active")})});
