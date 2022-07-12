@@ -242,7 +242,16 @@ h3{
     h3 {
        font-size: 1rem!important; /*1rem*/
     }
-    p{
+    /* p{
         font-size: 1.125rem!important;
-    }
+    } */
   }
+@media (max-width: 768px) {
+  .esconder_cel{
+    visibility: hidden!important;
+  }  
+  
+}
+
+
+.traductor_margin{margin-left: 15px;}
