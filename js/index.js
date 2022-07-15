@@ -91,6 +91,10 @@ null != (e = document.getElementById("veterinaria")) &&
     e.addEventListener("click", (e) => {
       custom_popup(title_evento, abri_website, EVENTO);
     }),
+    null != (e = document.getElementById("taekwondo")) &&
+    e.addEventListener("click", (e) => {
+      custom_popup(title_taekwondo, abri_website, TAEKWONDO);
+    }),
   "serviceWorker" in navigator &&
     window.addEventListener("load", function () {
       navigator.serviceWorker.register("/sw.js", { scope: "/" }).then(

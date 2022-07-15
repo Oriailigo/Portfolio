@@ -261,3 +261,7 @@ h3{
 
 .traductor_margin{margin-left: 15px;}
 
+.img_tamaño{
+  width: 50%;
+  /* clamp: 120px 200px 300px; */
+}
