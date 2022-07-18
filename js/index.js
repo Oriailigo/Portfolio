@@ -31,7 +31,7 @@ function custom_popup(e, t, n) {
       popup: "swal2-pop-style",
     },
     buttonsStyling: !1,
-    title: e,
+    text:e,
     icon: "warning",
     iconColor: "#E10000",
     showCloseButton: !0,
