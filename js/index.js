@@ -1,5 +1,5 @@
-const title_veterinaria =
-    "El sitio web <strong>Veterinaria Patitas</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
+const title_educanding =
+    "El sitio web <strong>Educanding</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_bebe =
     "El sitio web <strong>CreacionesBuho</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_remera =
@@ -14,7 +14,7 @@ const title_veterinaria =
     "El sitio web <strong>Asociación de TAE KWON DO y HAPKIDO de La Plata</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   
   
-VETERINARIA = "https://veterinariapatitasori.netlify.app/",
+EDUCANDING = "http://educanlink7.herokuapp.com/",
   BEBE = "https://bebetiendas.netlify.app//",
   REMERA = "https://tiendaremera.netlify.app/",
   BECAS = "https://prosecretaria-nuevo-site.netlify.app/",
@@ -66,10 +66,10 @@ function custom_popup_2(e) {
 function abri_website(e) {
   window.open(e, "_blank");
 }
-null != (e = document.getElementById("veterinaria")) &&
+null != (e = document.getElementById("educanding")) &&
   e.addEventListener("click", (e) => {
-    custom_popup(title_veterinaria, abri_website, VETERINARIA),
-      console.log("entre veterinaria");
+    custom_popup(title_educanding, abri_website, EDUCANDING),
+      console.log("entre educanding");
   }),
   null != (e = document.getElementById("bebe")) &&
     e.addEventListener("click", (e) => {
