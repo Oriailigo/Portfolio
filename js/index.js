@@ -1,17 +1,17 @@
 const title_veterinaria =
-    "El sitio web <strong>Veterinaria Patitas</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web <strong>Veterinaria Patitas</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_bebe =
-    "El sitio web <strong>CreacionesBuho</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web <strong>CreacionesBuho</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_remera =
-    "El sitio web <strong>Frontend Store</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web <strong>Frontend Store</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_becas =
-    "El sitio web <strong>Prosecretaría de asuntos estudiantiles</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web <strong>Prosecretaría de asuntos estudiantiles</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_boleta =
-    "El sitio web <strong>Lista de productos</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web <strong>Lista de productos</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_evento =
-    "El sitio web <strong>Generar Conciencia</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web <strong>Generar Conciencia</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_taekwondo =
-    "El sitio web <strong>Asociación de TAE KWON DO y HAPKIDO de La Plata</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web <strong>Asociación de TAE KWON DO y HAPKIDO de La Plata</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   
   
 VETERINARIA = "https://veterinariapatitasori.netlify.app/",
@@ -56,7 +56,7 @@ function custom_popup_2(e) {
   Swal.fire({
     title: e,
     imageUrl: "./static/images/ansiedad.png",
-    imageWidth: 512,
+    imageWidth: 80,
     imageHeight: 256,
     imageAlt: "oh no",
     backdrop:
