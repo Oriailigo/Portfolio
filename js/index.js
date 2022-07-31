@@ -1,17 +1,17 @@
 const title_educanding =
-    "El sitio web <strong>Educanding</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
+    "El sitio web Educanding"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_bebe =
-    "El sitio web <strong>CreacionesBuho</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+    "El sitio web CreacionesBuho"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_remera =
-    "El sitio web <strong>Frontend Store</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+    "El sitio web Frontend Store"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_becas =
-    "El sitio web <strong>Prosecretaría de asuntos estudiantiles</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
+    "El sitio web Prosecretaría de asuntos estudiantiles"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_boleta =
-    "El sitio web <strong>Lista de productos</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+    "El sitio web Lista de productos"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_evento =
-    "El sitio web <strong>Generar Conciencia</strong>"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+    "El sitio web Generar Conciencia"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_taekwondo =
-    "El sitio web <strong>Asociación de TAE KWON DO y HAPKIDO de La Plata</strong>"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
+    "El sitio web Asociación de TAE KWON DO y HAPKIDO de La Plata"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   
   
 EDUCANDING = "http://educanlink7.herokuapp.com/",
