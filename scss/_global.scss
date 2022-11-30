@@ -104,10 +104,10 @@ h6 {
 // sweet alert
 
 .alert-btn{
-  padding: 2rem 4rem!important;
+  padding: 1rem 2rem!important;
   color: #ffffff;
-  font-size: 1.5rem;
-  margin-right: 1rem;
+  font-size: 0.5rem;
+  // margin-right: 1rem;
   border-radius: 2rem;
   transition: all .3s ease-in-out;
 }
@@ -135,6 +135,16 @@ h6 {
   .swal2-pop-style{
       grid-row: 2 / 3 !important;
   }
+}
+@media (max-width:768px) {
+  .swal2-pop-style{
+      width: 200px;
+      height: 200px;
+  }
+  .alert-btn{
+    padding: 1rem 2rem!important;
+  }  
+
 }
 
 .espacio{

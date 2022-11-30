@@ -1,26 +1,30 @@
-const title_veterinaria =
-    "El sitio web <strong>Veterinaria Patitas</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+const title_educanding =
+    "El sitio web Educanding"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_bebe =
-    "El sitio web <strong>CreacionesBuho</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web CreacionesBuho"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+  title_morty =
+    "El sitio web Rick & Morty"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+
   title_remera =
-    "El sitio web <strong>Frontend Store</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web Frontend Store"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_becas =
-    "El sitio web <strong>Prosecretaría de asuntos estudiantiles</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web Prosecretaría de asuntos estudiantiles"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_boleta =
-    "El sitio web <strong>Lista de productos</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web Lista de productos"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_evento =
-    "El sitio web <strong>Generar Conciencia</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web Generar Conciencia"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_taekwondo =
-    "El sitio web <strong>Asociación de TAE KWON DO y HAPKIDO de La Plata</strong> se abrirá en una pestaña nueva. ¿Desea continuar?",
+    "El sitio web Asociación de TAE KWON DO y HAPKIDO de La Plata"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   
   
-VETERINARIA = "https://veterinariapatitasori.netlify.app/",
+EDUCANDING = "http://educanlink7.herokuapp.com/",
   BEBE = "https://bebetiendas.netlify.app//",
   REMERA = "https://tiendaremera.netlify.app/",
   BECAS = "https://prosecretaria-nuevo-site.netlify.app/",
   BOLETA = "https://boleta-de-productos.netlify.app/",
   EVENTO = "https://expo-generar-conciencia.herokuapp.com/";
   TAEKWONDO= "https://laplatatkd.herokuapp.com/";
+  MORTY= "https://oriailigo.github.io/Api_rick_morty/";
 var e;
 function custom_popup(e, t, n) {
   Swal.fire({
@@ -31,7 +35,7 @@ function custom_popup(e, t, n) {
       popup: "swal2-pop-style",
     },
     buttonsStyling: !1,
-    title: e,
+    text:e,
     icon: "warning",
     iconColor: "#E10000",
     showCloseButton: !0,
@@ -56,7 +60,7 @@ function custom_popup_2(e) {
   Swal.fire({
     title: e,
     imageUrl: "./static/images/ansiedad.png",
-    imageWidth: 512,
+    imageWidth: 80,
     imageHeight: 256,
     imageAlt: "oh no",
     backdrop:
@@ -66,14 +70,18 @@ function custom_popup_2(e) {
 function abri_website(e) {
   window.open(e, "_blank");
 }
-null != (e = document.getElementById("veterinaria")) &&
+null != (e = document.getElementById("educanding")) &&
   e.addEventListener("click", (e) => {
-    custom_popup(title_veterinaria, abri_website, VETERINARIA),
-      console.log("entre veterinaria");
+    custom_popup(title_educanding, abri_website, EDUCANDING),
+      console.log("entre educanding");
   }),
   null != (e = document.getElementById("bebe")) &&
     e.addEventListener("click", (e) => {
       custom_popup(title_bebe, abri_website, BEBE);
+    }),
+    null != (e = document.getElementById("morty")) &&
+    e.addEventListener("click", (e) => {
+      custom_popup(title_morty, abri_website, MORTY);
     }),
   null != (e = document.getElementById("remera")) &&
     e.addEventListener("click", (e) => {
@@ -90,6 +98,10 @@ null != (e = document.getElementById("veterinaria")) &&
   null != (e = document.getElementById("evento")) &&
     e.addEventListener("click", (e) => {
       custom_popup(title_evento, abri_website, EVENTO);
+    }),
+    null != (e = document.getElementById("taekwondo")) &&
+    e.addEventListener("click", (e) => {
+      custom_popup(title_taekwondo, abri_website, TAEKWONDO);
     }),
   "serviceWorker" in navigator &&
     window.addEventListener("load", function () {
