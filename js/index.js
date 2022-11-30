@@ -2,6 +2,9 @@ const title_educanding =
     "El sitio web Educanding"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   title_bebe =
     "El sitio web CreacionesBuho"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+  title_morty =
+    "El sitio web Rick & Morty"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
+
   title_remera =
     "El sitio web Frontend Store"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_becas =
@@ -21,6 +24,7 @@ EDUCANDING = "http://educanlink7.herokuapp.com/",
   BOLETA = "https://boleta-de-productos.netlify.app/",
   EVENTO = "https://expo-generar-conciencia.herokuapp.com/";
   TAEKWONDO= "https://laplatatkd.herokuapp.com/";
+  MORTY= "https://oriailigo.github.io/Api_rick_morty/";
 var e;
 function custom_popup(e, t, n) {
   Swal.fire({
@@ -74,6 +78,10 @@ null != (e = document.getElementById("educanding")) &&
   null != (e = document.getElementById("bebe")) &&
     e.addEventListener("click", (e) => {
       custom_popup(title_bebe, abri_website, BEBE);
+    }),
+    null != (e = document.getElementById("morty")) &&
+    e.addEventListener("click", (e) => {
+      custom_popup(title_morty, abri_website, MORTY);
     }),
   null != (e = document.getElementById("remera")) &&
     e.addEventListener("click", (e) => {
