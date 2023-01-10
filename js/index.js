@@ -15,8 +15,12 @@ const title_educanding =
     "El sitio web Generar Conciencia"+"\n"+ "se abrirá en una pestaña nueva." +"\n"+ "¿Desea continuar?",
   title_taekwondo =
     "El sitio web Asociación de TAE KWON DO y HAPKIDO de La Plata"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
+  title_listacursos=
+  "El componente web Listar cursos de Platzi"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
+  title_crypto=
+  "El sitio web Crypto"+"\n"+ "se abrirá en una pestaña nueva."+"\n"+ " ¿Desea continuar?",
   
-  
+
 EDUCANDING = "http://educanlink7.herokuapp.com/",
   BEBE = "https://bebetiendas.netlify.app//",
   REMERA = "https://tiendaremera.netlify.app/",
@@ -25,6 +29,9 @@ EDUCANDING = "http://educanlink7.herokuapp.com/",
   EVENTO = "https://expo-generar-conciencia.herokuapp.com/";
   TAEKWONDO= "https://laplatatkd.herokuapp.com/";
   MORTY= "https://oriailigo.github.io/Api_rick_morty/";
+  LISTACURSOS="https://listar-cursos.netlify.app/";
+  CRYPTO="https://platzi-cripto-vue.netlify.app/";
+
 var e;
 function custom_popup(e, t, n) {
   Swal.fire({
@@ -75,9 +82,17 @@ null != (e = document.getElementById("educanding")) &&
     custom_popup(title_educanding, abri_website, EDUCANDING),
       console.log("entre educanding");
   }),
+  null != (e = document.getElementById("crypto")) &&
+  e.addEventListener("click", (e) => {
+    custom_popup(title_crypto, abri_website, CRYPTO);
+  }),
   null != (e = document.getElementById("bebe")) &&
     e.addEventListener("click", (e) => {
       custom_popup(title_bebe, abri_website, BEBE);
+    }),
+    null != (e = document.getElementById("listacursos")) &&
+    e.addEventListener("click", (e) => {
+      custom_popup(title_listacursos, abri_website, LISTACURSOS);
     }),
     null != (e = document.getElementById("morty")) &&
     e.addEventListener("click", (e) => {
